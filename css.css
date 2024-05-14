@@ -1,0 +1,82 @@
+body{
+  background-color: #D4E5ED;
+}
+
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .li {
+    float: left;
+  }
+  
+  .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .li a:hover {
+    background-color: #111;
+  }
+
+.card1{
+   border: 3px solid;
+   margin: 30px;
+   padding: 10px;
+   
+}
+.boton{
+    border: solid;
+
+}
+.container-flex{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    justify-content: left;
+   
+} 
+
+.card1:hover{
+    border: 3px solid black;
+   -webkit-box-shadow: 22px 32px 37px -27px rgba(0,0,0,0.52);
+    -moz-box-shadow: 22px 32px 37px -27px rgba(0,0,0,0.52);
+    box-shadow: 22px 32px 37px -27px rgba(0,0,0,0.52);
+    transform: scale(1.07);
+}
+.container-about{
+  display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    justify-content: left;
+}
+.about{
+  border: 3px solid;
+  margin: 30px;
+  padding: 10px;
+
+}
+.tittle-s{
+  text-align: center;
+}
+/*.gridc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+justify-content: center;
+}
+   */ 
